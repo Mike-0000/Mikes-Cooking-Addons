@@ -183,132 +183,46 @@ $grp GenericEntity : "{3DF6889B2E661C5F}Prefabs/Items/Equipment/Radios/Bandit Di
   coords 130.319 1 128.026
  }
 }
+$grp GenericEntity : "{967B3ADC1C7F865A}Prefabs/Items/Medicine/FieldDressing_01/SpawnStoveItem.et" {
+ {
+  coords 123.719 1 149.6
+ }
+ {
+  coords 130.025 1 150.891
+ }
+}
 $grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et" {
  {
-  coords 135.522 1 126.008
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
+  components {
+   ActionsManagerComponent "{63241A10E78965CA}" {
+    additionalActions {
+     MIKE_StoveStopUserAction "{64430DD30380DDCC}" {
+      UIInfo UIInfo "{64430DD3176A0E39}" {
+       Name "Stop Stove"
       }
      }
     }
    }
   }
+  coords 135.522 1 126.008
  }
  {
   coords 132.035 1 126.201
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 139.856 1 126.39
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 146.598 1 126.309
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 126.375 1 126.121
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 143.566 1 126.559
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 119.103 1 126.085
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   components {
@@ -319,165 +233,30 @@ $grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et" {
    }
   }
   coords 111.895 1 126.53
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 105.837 1 126.915
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 100.956 1 126.383
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 98.013 1 126.433
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 153.261 1 127.027
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 158.661 1 126.786
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 165.469 1 127.324
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 170.785 1 128.549
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
  {
   coords 177.511 1 129.48
-  {
-   GenericEntity {
-    ID "6329662EFF224B47"
-    components {
-     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
-      m_aDamagePhases {
-       SCR_DamagePhaseData "{632D7CE963F02228}" {
-        m_fPhaseHealth 4000
-        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-       }
-      }
-     }
-    }
-   }
-  }
  }
 }
 $grp GenericEntity : "{DE76F12F4190D684}Prefabs/Items/Equipment/Radios/Red Soda.et" {
