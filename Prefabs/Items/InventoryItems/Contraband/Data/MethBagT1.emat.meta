@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{08132FE4D04B55C0}Prefabs/Items/InventoryItems/Contraband/Data/MethBagT1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

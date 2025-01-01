@@ -1,0 +1,42 @@
+GenericEntity : "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01_Base.et" {
+ ID "51F66EC33748B84D"
+ components {
+  InventoryItemComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
+     Name "Tier 1 Meth Bag"
+     Description "Amount: 5gram"
+     m_bShowIconInInventory 1
+     m_aItemHints {
+      SCR_InventoryItemHintUIInfo "{5E0EC111B36279BB}" {
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 0.05
+     ItemDimensions 0 0 0
+     ItemVolume 0.09999674
+    }
+    CustomAttributes {
+     ItemActionAnimAttributes "{551CA1C31648EE8D}" {
+     }
+     SCR_AlternativeModel "{6098B95342DA15AE}" {
+      m_sAlternativeModel "{10E8610C74C89573}Source/1KBund.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{51F66EC3C5BC700D}" {
+   Object "{05C5E159E48253CB}Source/Contraband/Cocainebaggie.xob"
+   Materials {
+    MaterialAssignClass "{632D1A24CC9E8117}" {
+     SourceMaterial "DrugBaggie45"
+     AssignedMaterial "{08132FE4D04B55C0}Prefabs/Items/InventoryItems/Contraband/Data/MethBagT1.emat"
+    }
+   }
+  }
+  RigidBody "{51F66EC3C5BC7033}" {
+   Layers 1
+  }
+ }
+}

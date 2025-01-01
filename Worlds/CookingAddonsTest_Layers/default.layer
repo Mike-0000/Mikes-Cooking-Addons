@@ -1,0 +1,658 @@
+GenericEntity : "{06B68C58B72EAAC6}Prefabs/Items/Equipment/Backpacks/Backpack_ALICE_Medium.et" {
+ coords 137.253 1 121.526
+}
+$grp GenericEntity : "{3DF6889B2E661C5F}Prefabs/Items/Equipment/Radios/Bandit Dirty Water.et" {
+ {
+  coords 148.814 1 125.62
+ }
+ {
+  coords 148.859 1 126.018
+ }
+ {
+  coords 148.632 1 126.084
+ }
+ {
+  coords 148.883 1 125.552
+ }
+ {
+  coords 148.86 1 126.005
+ }
+ {
+  coords 148.805 1 125.72
+ }
+ {
+  coords 134.349 1 127.788
+ }
+ {
+  coords 135.092 1 127.629
+ }
+ {
+  coords 135.004 1 128.083
+ }
+ {
+  coords 134.34 1 127.254
+ }
+ {
+  coords 134.163 1 127.556
+ }
+ {
+  coords 134.327 1 128.18
+ }
+ {
+  coords 133.226 1 128.817
+ }
+ {
+  coords 133.969 1 128.658
+ }
+ {
+  coords 133.881 1 129.112
+ }
+ {
+  coords 133.217 1 128.283
+ }
+ {
+  coords 133.04 1 128.585
+ }
+ {
+  coords 133.204 1 129.209
+ }
+ {
+  coords 134.197 1 128.853
+ }
+ {
+  coords 134.94 1 128.694
+ }
+ {
+  coords 134.852 1 129.148
+ }
+ {
+  coords 134.188 1 128.319
+ }
+ {
+  coords 134.011 1 128.621
+ }
+ {
+  coords 134.175 1 129.245
+ }
+ {
+  coords 130.577 1 127.181
+ }
+ {
+  coords 131.32 1 127.022
+ }
+ {
+  coords 131.232 1 127.476
+ }
+ {
+  coords 130.568 1 126.647
+ }
+ {
+  coords 130.391 1 126.949
+ }
+ {
+  coords 130.555 1 127.573
+ }
+ {
+  coords 134.651 1 128.411
+ }
+ {
+  coords 135.394 1 128.252
+ }
+ {
+  coords 135.306 1 128.706
+ }
+ {
+  coords 134.642 1 127.877
+ }
+ {
+  coords 134.465 1 128.179
+ }
+ {
+  coords 134.629 1 128.803
+ }
+ {
+  coords 131.199 1 129.021
+ }
+ {
+  coords 131.942 1 128.862
+ }
+ {
+  coords 131.854 1 129.316
+ }
+ {
+  coords 131.19 1 128.487
+ }
+ {
+  coords 131.013 1 128.789
+ }
+ {
+  coords 131.177 1 129.413
+ }
+ {
+  coords 135.176 1 127.539
+ }
+ {
+  coords 135.919 1 127.38
+ }
+ {
+  coords 135.831 1 127.834
+ }
+ {
+  coords 135.167 1 127.005
+ }
+ {
+  coords 134.99 1 127.307
+ }
+ {
+  coords 135.154 1 127.931
+ }
+ {
+  coords 133.527 1 129.229
+ }
+ {
+  coords 134.27 1 129.07
+ }
+ {
+  coords 134.182 1 129.524
+ }
+ {
+  coords 133.518 1 128.695
+ }
+ {
+  coords 133.341 1 128.997
+ }
+ {
+  coords 133.505 1 129.621
+ }
+ {
+  coords 130.341 1 127.634
+ }
+ {
+  coords 131.084 1 127.475
+ }
+ {
+  coords 130.996 1 127.929
+ }
+ {
+  coords 130.332 1 127.1
+ }
+ {
+  coords 130.155 1 127.402
+ }
+ {
+  coords 130.319 1 128.026
+ }
+}
+$grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et" {
+ {
+  coords 135.522 1 126.008
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 132.035 1 126.201
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 139.856 1 126.39
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 146.598 1 126.309
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 126.375 1 126.121
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 143.566 1 126.559
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 119.103 1 126.085
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  components {
+   MIKE_CookingManagerComponent "{63241A10DFBAECE9}" {
+    m_AudioSourceConfiguration SCR_AudioSourceConfiguration "{633D0803958DCC03}" {
+     m_eFlags 6
+    }
+   }
+  }
+  coords 111.895 1 126.53
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 105.837 1 126.915
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 100.956 1 126.383
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 98.013 1 126.433
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 153.261 1 127.027
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 158.661 1 126.786
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 165.469 1 127.324
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 170.785 1 128.549
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  coords 177.511 1 129.48
+  {
+   GenericEntity {
+    ID "6329662EFF224B47"
+    components {
+     SCR_DestructionMultiPhaseComponent "{6329662EFE6BD76C}" {
+      m_aDamagePhases {
+       SCR_DamagePhaseData "{632D7CE963F02228}" {
+        m_fPhaseHealth 4000
+        m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}
+$grp GenericEntity : "{DE76F12F4190D684}Prefabs/Items/Equipment/Radios/Red Soda.et" {
+ {
+  coords 147.835 1 126.975
+ }
+ {
+  coords 148.117 1 126.17
+ }
+ {
+  coords 148.084 1 126.707
+ }
+ {
+  coords 148.09 1 126.531
+ }
+ {
+  coords 136.268 1 127.663
+ }
+ {
+  coords 136.8 1 127.914
+ }
+ {
+  coords 135.994 1 127.846
+ }
+ {
+  coords 135.848 1 127.478
+ }
+ {
+  coords 136.58 1 127.224
+ }
+ {
+  coords 136.659 1 128.104
+ }
+ {
+  coords 135.536 1 129.133
+ }
+ {
+  coords 135.145 1 128.692
+ }
+ {
+  coords 135.677 1 128.943
+ }
+ {
+  coords 134.871 1 128.875
+ }
+ {
+  coords 134.725 1 128.507
+ }
+ {
+  coords 135.457 1 128.253
+ }
+ {
+  coords 136.507 1 129.169
+ }
+ {
+  coords 136.116 1 128.728
+ }
+ {
+  coords 136.648 1 128.979
+ }
+ {
+  coords 135.842 1 128.911
+ }
+ {
+  coords 135.696 1 128.543
+ }
+ {
+  coords 136.428 1 128.289
+ }
+ {
+  coords 132.887 1 127.497
+ }
+ {
+  coords 132.496 1 127.056
+ }
+ {
+  coords 133.028 1 127.307
+ }
+ {
+  coords 132.222 1 127.239
+ }
+ {
+  coords 132.076 1 126.871
+ }
+ {
+  coords 132.808 1 126.617
+ }
+ {
+  coords 136.961 1 128.727
+ }
+ {
+  coords 136.57 1 128.286
+ }
+ {
+  coords 137.102 1 128.537
+ }
+ {
+  coords 136.296 1 128.469
+ }
+ {
+  coords 136.15 1 128.101
+ }
+ {
+  coords 136.882 1 127.847
+ }
+ {
+  coords 133.509 1 129.337
+ }
+ {
+  coords 133.118 1 128.896
+ }
+ {
+  coords 133.65 1 129.147
+ }
+ {
+  coords 132.844 1 129.079
+ }
+ {
+  coords 132.698 1 128.711
+ }
+ {
+  coords 133.43 1 128.457
+ }
+ {
+  coords 137.486 1 127.855
+ }
+ {
+  coords 137.095 1 127.414
+ }
+ {
+  coords 137.627 1 127.665
+ }
+ {
+  coords 136.821 1 127.597
+ }
+ {
+  coords 136.675 1 127.229
+ }
+ {
+  coords 137.407 1 126.975
+ }
+ {
+  coords 135.837 1 129.545
+ }
+ {
+  coords 135.446 1 129.104
+ }
+ {
+  coords 135.978 1 129.355
+ }
+ {
+  coords 135.172 1 129.287
+ }
+ {
+  coords 135.026 1 128.919
+ }
+ {
+  coords 135.758 1 128.665
+ }
+ {
+  coords 132.651 1 127.95
+ }
+ {
+  coords 132.26 1 127.509
+ }
+ {
+  coords 132.792 1 127.76
+ }
+ {
+  coords 131.986 1 127.692
+ }
+ {
+  coords 131.84 1 127.324
+ }
+ {
+  coords 132.572 1 127.07
+ }
+}

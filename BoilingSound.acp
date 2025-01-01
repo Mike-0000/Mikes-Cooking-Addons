@@ -1,0 +1,235 @@
+AudioClass {
+ signals {
+  SignalClass {
+   id 16397
+   name "Signal 16"
+   tl -786.124 -716.122
+   res "{E6BD7762F7151296}BoilingSoundSignal.sig"
+   conns {
+    IOPConnectionClass iopConnection {
+     port 22
+     conn {
+      ConnectionsClass connections {
+       id 8
+       links {
+        ConnectionClass connection {
+         id 19468
+         port 1
+        }
+       }
+      }
+     }
+    }
+   }
+   inputsport {
+    14 22
+   }
+   outputsport {
+    2 24
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{E6BD7762F7151296}BoilingSoundSignal.sig"
+  }
+ }
+ sounds {
+  SoundClass {
+   id 6153
+   name "SOUND_BOILING"
+   version 5
+   tl 189.145 -286.855
+   ins {
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 3090
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    2 0
+   }
+   pu {
+    2 0
+   }
+   outState 8203
+   outStatePort 79879
+   noInAudible 0
+   bypassVolumeTest 1
+  }
+ }
+ mixers {
+  MixerClass {
+   id 8203
+   name "OutputState 8"
+   version 4
+   tl 521.298 -377.875
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass connections {
+     id 79879
+     links {
+      ConnectionClass connection {
+       id 6153
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    16384 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "Music" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb" "VON_Reverb" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "UI" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "Dialog_Delay_Exterior"
+   }
+  }
+ }
+ constants {
+  ConstantClass {
+   id 19468
+   name "Constant 19"
+   version 5
+   tl -1023.077 -680
+   "Constant values" {
+    IOPConstantsValueClass zero {
+     Key "zero"
+     Value 0.001
+     Port 1
+    }
+   }
+  }
+ }
+ shaders {
+  ShaderClass {
+   id 3090
+   name "Shader 3"
+   version 5
+   tl -131.474 -493.598
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 5148
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 2067
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 2
+     links {
+      ConnectionClass connection {
+       id 4117
+       port 65
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 64
+     links {
+      ConnectionClass connection {
+       id 9220
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass {
+   id 2067
+   name "Amplitude 2"
+   version 5
+   tl -712.472 -385.138
+   curve Linear
+   innerRange 0
+  }
+ }
+ frequency {
+  FrequencyClass {
+   id 4117
+   name "Frequency 4"
+   version 5
+   tl -633.182 -254.273
+   dynamicUpdate 1
+   enableDistanceAtt 1
+   type AirAbsorption
+  }
+ }
+ banks_local {
+  BankLocalClass {
+   id 9220
+   name "Bank 9"
+   version 7
+   tl -525.191 -701.846
+   ins {
+    ConnectionsClass connections {
+     id 0
+     links {
+      ConnectionClass connection {
+       id 16397
+       port 2
+      }
+     }
+    }
+    ConnectionsClass connections {
+     id 1
+     links {
+      ConnectionClass connection {
+       id 16397
+       port 24
+      }
+     }
+    }
+   }
+   pi {
+    3 0
+   }
+   pu {
+    3 0
+   }
+   "Loop count" 255
+   "Infinite loop" 1
+   Samples {
+    AudioBankSampleClass Sample {
+     Filename "{483881BB40D19CC0}BoilingWater (1).wav"
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass {
+   id 5148
+   name "Spatiality 5"
+   version 5
+   tl -579.818 -480.364
+   spatialFactor 0.4
+  }
+ }
+ version 1
+ sourcesLimit 8
+}
