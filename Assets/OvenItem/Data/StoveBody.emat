@@ -1,0 +1,7 @@
+MatPBRBasic {
+ RoughnessScale 0.377
+ EmissiveMap "{77BF1A5295A1E1AB}Assets/OvenItem/Data/Stove_StoveBody_EmisiveMask.edds"
+ BCRMap "{10B0CEE7BF1A55BB}Assets/OvenItem/Data/Stove_StoveBody_BaseColor.edds"
+ OpacityMap "{EAF215AD48193153}Assets/OvenItem/Data/Stove_StoveBody_Roughness.edds"
+ NMOMap "{20E514AAA2B74CFE}Assets/OvenItem/Data/Stove_StoveBody_NormalOGL16..edds"
+}

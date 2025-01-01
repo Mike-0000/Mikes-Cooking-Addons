@@ -341,9 +341,9 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
     UserActionContext "{63241A1046C63898}" {
      ContextName "Start"
      Position PointInfo "{63241A104EEDBE9C}" {
-      Offset -0.3244 1.5008 0.5579
+      Offset -0.5486 1.1405 0.6702
      }
-     Radius 1
+     Radius 0.5
     }
     UserActionContext "{6329662E36BD9386}" {
      ContextName "raiseTemp"
@@ -405,6 +405,9 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
     MIKE_StoveStopUserAction "{64430DD30380DDCC}" {
      ParentContextList {
       "StopStove"
+     }
+     UIInfo UIInfo "{64430DD3176A0E39}" {
+      Name "Stop Stove"
      }
     }
    }

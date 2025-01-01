@@ -1,0 +1,6 @@
+MatPBRBasic {
+ RoughnessScale 0.377
+ MetalnessScale 0.66
+ BCRMap "{E62363FEE4835C28}Assets/OvenItem/Data/Stove_StoveControls_BaseColor.edds"
+ NMOMap "{C365095113F66CE7}Assets/OvenItem/Data/Stove_StoveControls_NormalOGL16.edds"
+}
