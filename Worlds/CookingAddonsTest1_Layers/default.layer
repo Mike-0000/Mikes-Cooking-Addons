@@ -1,0 +1,80 @@
+$grp GenericEntity : "{3DF6889B2E661C5F}Prefabs/Items/Equipment/Radios/Bandit Dirty Water.et" {
+ {
+  coords 132.949 1 143.906
+ }
+ {
+  coords 134.013 1 142.429
+ }
+ {
+  coords 132.682 1 142.593
+ }
+ {
+  coords 131.979 1 143.117
+ }
+ {
+  coords 130.454 1 142.696
+ }
+ {
+  coords 132.612 1 142.304
+ }
+ {
+  coords 132.187 1 143.66
+ }
+}
+$grp GenericEntity : "{967B3ADC1C7F865A}Prefabs/SpawnStoveItem.et" {
+ {
+  coords 127.485 1 137.975
+ }
+ {
+  coords 127.313 1 137.088
+ }
+ {
+  coords 127.629 1 136.806
+ }
+ {
+  coords 128.451 1 137.161
+ }
+ {
+  coords 128.178 1 138.166
+ }
+ {
+  coords 126.563 1 137.714
+ }
+ {
+  coords 126.645 1 135.885
+ }
+}
+$grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et" {
+ {
+  coords 126.177 1 141.11
+ }
+ {
+  coords 141.351 1 131.729
+ }
+ {
+  coords 146.313 1 141.017
+ }
+}
+$grp GenericEntity : "{DE76F12F4190D684}Prefabs/Items/Equipment/Radios/Red Soda.et" {
+ {
+  coords 131.721 1 142.072
+ }
+ {
+  coords 133.174 1 143.173
+ }
+ {
+  coords 131.935 1 142.874
+ }
+ {
+  coords 130.058 1 141.552
+ }
+ {
+  coords 133.389 1 142.881
+ }
+ {
+  coords 131.345 1 143.367
+ }
+ {
+  coords 126.771 1 143.056
+ }
+}

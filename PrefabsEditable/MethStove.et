@@ -3,12 +3,6 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
  components {
   SignalsManagerComponent "{632C10D5164D849B}" {
    Enabled 1
-   components {
-    SignalsComponent "{633D13C2D97845CD}" {
-     Enabled 0
-     Filenames "{E6BD7762F7151296}BoilingSoundSignal.sig"
-    }
-   }
   }
   SoundComponent "{632D7882F1562A4D}" {
    Enabled 1
@@ -22,33 +16,6 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
     SoundPointInfo Core {
      Offset -0.2263 1.2621 0.4643
     }
-   }
-  }
-  BaseTriggerComponent "{632D6D245C8B1FE1}" {
-   Enabled 0
-   PROJECTILE_EFFECTS {
-    AIExplosionEffect "{632D6D246554E648}" {
-     Enabled 0
-    }
-   }
-   TRIGGER_ALIVE 1
-   TriggerOffset 3.1
-   ArmingTime 4.7
-  }
-  InventoryItemComponent "{633D5618A7ADB763}" {
-   Enabled 0
-   Attributes SCR_ItemAttributeCollection "{633D5618AA24E59D}" {
-    ItemDisplayName UIInfo "{633D5618ABD30729}" {
-     Name "Mike's Cooking Stove"
-    }
-    ItemPhysAttributes ItemPhysicalAttributes "{633D5618AD2113D8}" {
-     Weight 0.01
-     DimensionScaler 0.1
-    }
-    CommonItemType "MINE"
-    m_Size SLOT_1x1
-    m_eQuickSlotSize SLOT_1x1
-    m_SlotType SLOT_HAND
    }
   }
   MIKE_CookingManagerComponent "{63241A10DFBAECE9}" {
@@ -146,65 +113,6 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
   }
   SCR_ExplosiveChargeComponent "{632D558827207D8A}" {
    Enabled 1
-  }
-  SCR_ExplosiveChargeInventoryItemComponent "{633D561E227E772B}" {
-   Enabled 0
-   Attributes SCR_ItemAttributeCollection "{633D561E27B765DF}" {
-    ItemDisplayName WeaponUIInfo "{60D6BB563543F2F2}" {
-     Name "#AR-Weapon_M112DemoCharge_Name"
-     Description "#AR-Weapon_M112DemoCharge_Description"
-    }
-    ItemPhysAttributes ItemPhysicalAttributes "{5F10E041E86255CD}" {
-     Weight 0.57
-     SizeSetupStrategy Manual
-     ItemDimensions 10 10 10
-     ItemVolume 400
-     DimensionScaler 1
-     RestingAdditiveRotationLS 0 0 0
-     RestingAdditiveOffsetLS 0 0 0
-    }
-    ItemAnimationAttributes ItemAnimationAttributes "{5F10E041E06EA55A}" {
-     IkSettings {
-      ItemIKSettings "{59E4E696CE54F34A}" {
-       MovementSpeedRange 0 3
-      }
-      ItemIKSettings "{5F1099957AD2A778}" {
-       Lowered 1
-       InAds 0
-       OutAds 0
-       MovementSpeedRange 0 0
-      }
-      ItemIKSettings "{5F109995781AC4F5}" {
-       Jumping 1
-       InAds 0
-       OutAds 0
-       MovementSpeedRange 0 0
-      }
-      ItemIKSettings "{5F10999579F7ED39}" {
-       ProneTurn 1
-       MovementSpeedRange 0 0
-       IkSettingsStand 4
-      }
-     }
-     AnimationInstance "{4FCBEA45CAEBC9C0}anims/workspaces/player/player_main_1h.asi"
-     AnimationIKPose "{ADA8287EEE81F47D}Assets/Weapons/Explosives/DemoBlock_M112/anims/p_M112_IK.anm"
-    }
-    CustomAttributes {
-     PreviewRenderAttributes "{5F10E041F98252F3}" {
-      CameraPreset Top
-      CameraOrbitAngles -25 -30 0
-      CameraOffset 0.025 0 0
-      FOV 60
-      AspectRatio 1
-      LodModel 1
-     }
-     CharacterModifierAttributes "{5F10E041F357BA2C}" {
-     }
-    }
-    CommonItemType "EXPLOSIVE_CHARGE"
-    m_Size SLOT_1x1
-    m_SlotType SLOT_BACKPACK
-   }
   }
   SCR_ExplosiveTriggerComponent "{632D718ECF276CB5}" {
    Enabled 1
@@ -331,10 +239,6 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
    SaveInLoadout 0
    m_fMaxWeight 10000
   }
-  SignalsComponent "{633C2D435BAE5269}" {
-   Enabled 0
-   Filenames "{E6BD7762F7151296}BoilingSoundSignal.sig"
-  }
   ActionsManagerComponent "{63241A10E78965CA}" {
    Enabled 1
    ActionContexts {
@@ -441,6 +345,7 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
      }
     }
     RplComponent "{6443010A7150F18D}" {
+     Enabled 0
     }
    }
    coords -0.323 1.024 0.554
