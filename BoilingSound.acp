@@ -165,8 +165,9 @@ AudioClass {
    name "Amplitude 2"
    version 5
    tl -712.472 -385.138
-   curve Linear
+   curve SCurve
    innerRange 0
+   outerRange 25
   }
  }
  frequency {
@@ -227,7 +228,7 @@ AudioClass {
    name "Spatiality 5"
    version 5
    tl -579.818 -480.364
-   spatialFactor 0.4
+   spatialFactor 1
   }
  }
  version 1

@@ -22,36 +22,45 @@ $grp GenericEntity : "{3DF6889B2E661C5F}Prefabs/Items/Equipment/Radios/Bandit Di
  }
 }
 $grp GenericEntity : "{967B3ADC1C7F865A}Prefabs/SpawnStoveItem.et" {
- {
-  coords 127.485 1 137.975
+ SpawnStoveItem_644368CE389F0425 {
+  coords 121.182 1 133.399
  }
- {
-  coords 127.313 1 137.088
+ SpawnStoveItem_644368CE389F2 {
+  coords 122.022 1 132.786
  }
- {
-  coords 127.629 1 136.806
+ SpawnStoveItem_644368CE389F3 {
+  coords 122.316 1 133.191
  }
- {
-  coords 128.451 1 137.161
+ SpawnStoveItem_644368CE389F4 {
+  coords 120.801 1 134.33
  }
- {
-  coords 128.178 1 138.166
+ SpawnStoveItem_644368CE389F5 {
+  coords 120.543 1 133.073
  }
- {
-  coords 126.563 1 137.714
+ SpawnStoveItem_644368CE389F6 {
+  coords 123.784 1 132.157
  }
- {
-  coords 126.645 1 135.885
+ SpawnStoveItem_644368CE389F7 {
+  coords 120.831 1 134.47
  }
 }
-$grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et" {
- {
+$grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MikesStove.et" {
+ MikesStove_644368CE389F08F8 {
   coords 126.177 1 141.11
  }
- {
+ MikesStove_644368CE389F08B4 {
+  components {
+   SCR_DestructionMultiPhaseComponent "{5624A88D86EFE8BA}" {
+    m_aDamagePhases {
+     SCR_DamagePhaseData "{5214BC4944079BCF}" {
+      m_PhaseModel "{799C96545573CEC4}Assets/Props/Industrial/StoveIndustrial_01/StoveIndustrial_01.xob"
+     }
+    }
+   }
+  }
   coords 141.351 1 131.729
  }
- {
+ MikesStove_644368CE389F0860 {
   coords 146.313 1 141.017
  }
 }

@@ -47,7 +47,7 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
    "Additional hit zones" {
     SCR_FuelHitZone Default {
      ColliderNames {
-      "UBX_Stove_01_ metal"
+      "UBX_StoveIndustrial_01_metal"
      }
      HZDefault 0
      MaxHealth 2000
@@ -92,9 +92,16 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
      }
     }
    }
+   m_fBaseHealth 10000
    m_bPassDamageToChildren 1
    m_bDestroyParentWhenDestroyed 1
    m_bDeleteAfterFinalPhase 1
+   m_aDamagePhases {
+    SCR_DamagePhaseData "{5214BC4944079BCF}" {
+     m_fPhaseHealth 15000
+     m_PhaseModel "{799C96545573CEC4}Assets/Props/Industrial/StoveIndustrial_01/StoveIndustrial_01.xob"
+    }
+   }
   }
   SCR_EditableEntityComponent "{58AAE805B43494BC}" : "{996046FE206C699A}Prefabs/Editor/Components/Default_SCR_EditableEntityComponent.ct" {
    Enabled 1
@@ -199,7 +206,7 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
   SCR_PreviewEntityComponent "{58AAE805B43B3A88}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
    Enabled 1
    m_bRuntime 0
-   m_PreviewPrefab "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et"
+   m_PreviewPrefab "{9B5C23A08E40BEF6}PrefabsEditable/MikesStove.et"
    m_aEntries {
     SCR_BasePreviewEntry "{632413016C486E67}" {
      m_iParentID -1
@@ -318,8 +325,8 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
   }
   RplComponent "{5624A88DC2D9928D}" {
    Enabled 1
-   "Rpl State Override" Runtime
-   "Parent Node From Parent Entity" 0
+   "Parent Node From Parent Entity" 1
+   AutoHierarchy 1
   }
   Hierarchy "{632D6D25C2A6552C}" {
    Enabled 1
@@ -327,29 +334,16 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
  }
  {
   GenericEntity : "{54E3E07AF8CE4DB2}Prefabs/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big.et" {
-   ID "6443010B77F31C4C"
+   ID "644400AE98113B13"
    components {
     SCR_DestructionMultiPhaseComponent "{51A4A8CA10A96EE4}" {
      Enabled 1
-     m_DestroySpawnObjects {
-      SCR_DebrisSpawnable "{58769A1D33793D34}" {
-       m_ModelPrefabs {
-       }
-      }
-     }
-     m_aDamagePhases {
-      SCR_DamagePhaseData "{6443010A7C4D1F51}" {
-       m_fPhaseHealth 1000
-       m_PhaseModel "{EDA2F172D497AD43}Assets/Props/Industrial/PotIndustrialSet_01/PotIndustrialSet_01_Big_pot.xob"
-      }
-     }
+     m_fBaseHealth 4000
     }
-    RplComponent "{6443010A7150F18D}" {
-     Enabled 0
+    RplComponent "{644400AEA4749BC3}" {
     }
    }
-   coords -0.323 1.024 0.554
-   angleY -28.406
+   coords -0.267 0.975 0.552
   }
  }
 }

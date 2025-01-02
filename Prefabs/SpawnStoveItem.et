@@ -21,7 +21,7 @@ GenericEntity : "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/Field
    m_ConsumableEffect MIKE_PlaceStove "{594363147CC4C6BE}" {
     m_fApplyToSelfDuration 0
     m_fApplyToOtherDuration 0
-    m_rnStovePrefab "{9B5C23A08E40BEF6}PrefabsEditable/MethStove.et"
+    m_rnStovePrefab "{9B5C23A08E40BEF6}PrefabsEditable/MikesStove.et"
    }
    m_bAlternativeModelOnAction 0
   }

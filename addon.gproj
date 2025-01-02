@@ -3,6 +3,20 @@ GameProject {
  GUID "632D1A2597928C35"
  TITLE "Mikes Cooking Addons"
  Dependencies {
-  "632406428E56F284" "62F32B5E0B91F6D6" "5DC80CC55F805CAE" "61B928374BEA9455" "58D0FB3206B6F859"
+  "632406428E56F284" "62F32B5E0B91F6D6" "5DC80CC55F805CAE" "61B928374BEA9455" "5D6EBC81EB1842EF" "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
  }
 }

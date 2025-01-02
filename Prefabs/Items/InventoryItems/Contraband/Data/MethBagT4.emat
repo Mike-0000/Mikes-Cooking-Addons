@@ -1,7 +1,9 @@
 MatPBRBasic {
- Color 0.003 0.676 0.274 1
- Emissive 0.002 0.191 0 0
- EmissiveLV 4.13
- RoughnessScale 0.285
- MetalnessScale 0.894
+ Color 0 0.034 0.002 1
+ Emissive 0 0.06 0.003 0
+ EmissiveLV -0.519
+ SpecularMul 0.61
+ RoughnessScale 0.191
+ MetalnessScale 0.115
+ CavityFromAO 0
 }
