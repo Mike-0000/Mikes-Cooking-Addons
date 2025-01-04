@@ -21,28 +21,8 @@ $grp GenericEntity : "{3DF6889B2E661C5F}Prefabs/Items/Equipment/Radios/Bandit Di
   coords 132.187 1 143.66
  }
 }
-$grp GenericEntity : "{967B3ADC1C7F865A}Prefabs/SpawnStoveItem.et" {
- SpawnStoveItem_644368CE389F0425 {
-  coords 121.182 1 133.399
- }
- SpawnStoveItem_644368CE389F2 {
-  coords 122.022 1 132.786
- }
- SpawnStoveItem_644368CE389F3 {
-  coords 122.316 1 133.191
- }
- SpawnStoveItem_644368CE389F4 {
-  coords 120.801 1 134.33
- }
- SpawnStoveItem_644368CE389F5 {
-  coords 120.543 1 133.073
- }
- SpawnStoveItem_644368CE389F6 {
-  coords 123.784 1 132.157
- }
- SpawnStoveItem_644368CE389F7 {
-  coords 120.831 1 134.47
- }
+GenericEntity SpawnStoveItem_6444387A51FFD805 : "{967B3ADC1C7F865A}Prefabs/SpawnStoveItem.et" {
+ coords 118.337 1 134.396
 }
 $grp GenericEntity : "{9B5C23A08E40BEF6}PrefabsEditable/MikesStove.et" {
  MikesStove_644368CE389F08F8 {

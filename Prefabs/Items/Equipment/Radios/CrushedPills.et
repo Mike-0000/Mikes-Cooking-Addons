@@ -1,0 +1,138 @@
+GenericEntity {
+ ID "6444387C90EB436E"
+ components {
+  EPF_PersistenceComponent "{6444387D9764C7CD}" {
+   m_pSaveData EPF_ItemSaveDataClass "{6444387D9A3C2146}" {
+    m_aComponents {
+     EPF_BaseInventoryStorageComponentSaveDataClass "{6444387D9F65746E}" {
+     }
+    }
+   }
+  }
+  InventoryItemComponent "{6444387C90EB4354}" {
+   Attributes SCR_ItemAttributeCollection "{6444387C90EB432C}" {
+    ItemDisplayName UIInfo "{6444387C90EB4326}" {
+     Name "Crushed Pills"
+     Description "Good for mixing......"
+     Icon "{2FBD8DA665FB8AF1}UI/Textures/VON/ANPRC68-100px_UI.edds"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{6444387C90EB4322}" {
+     Weight 0.05
+     SizeSetupStrategy Manual
+     ItemVolume 10
+     RestingUP Forward
+     RestingAdditiveOffsetLS 0 0 0.15
+    }
+    ItemAnimationAttributes ItemAnimationAttributes "{6444387C90EB433E}" {
+     AnimationInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+     AnimationAttachments {
+      AnimationAttachmentInfo "{6444387C90EB433C}" {
+       AnimGraph "{402BB5FA2891D687}Assets/Items/Equipment/workspaces/Radio_ANPRC68.agr"
+       AnimInstance "{332D4A7512E78419}Assets/Items/Equipment/workspaces/Radio_ANPRC68_player.asi"
+       BindingName "Gadget"
+      }
+     }
+     HandAdditiveRotation 0 -45 0
+     HandAdditiveTranslation -0.24 0.03 0.09
+     AllowInspection 1
+    }
+    CustomAttributes {
+     CharacterModifierAttributes "{6444387C90EB4335}" {
+     }
+     PreviewRenderAttributes "{6444387C90EB4333}" {
+      CameraPreset Top
+      CameraOrbitAngles 20 0 0
+      CameraDistanceToItem 1
+      CameraOffset 0 -0.015 0
+      FOV 10
+     }
+     SCR_VONPreviewAttributes "{6444387C90EB4331}" {
+      CameraOrbitAngles -30 180 45
+      CameraDistanceToItem 0.6
+      FOV 40
+     }
+    }
+    CommonItemType "NONE"
+    m_Size SLOT_1x1
+    m_SlotType SLOT_GADGETS_STORAGE
+   }
+  }
+  MeshObject "{6444387C90EB430D}" {
+   Object "{EB679DA56213298F}Bandit/Model/Bandit Hallucinogen/Rad scaled.xob"
+   LODFactors {
+   }
+  }
+  RigidBody "{6444387C90EB4309}" {
+   CenterOfMass 0 0.1 0
+   ModelGeometry 1
+   CCDRadius 0.015
+  }
+  SCR_ConsumableItemComponent "{6444387C90EB4307}" {
+   m_eAnimVariable ANPRC68
+   m_ConsumableEffect SCR_ConsumableEffectHealthItems "{6444387C90EB4302}" {
+    m_fApplyToSelfDuration 5
+    m_fApplyToOtherDuration 0
+    m_fItemRegenerationSpeed 1
+    m_fItemRegenerationDuration 10
+    m_fItemAbsoluteRegenerationAmount 5
+    m_aDamageEffectsToLoad {
+     SCR_SalineDamageEffect "{6444387C90EB431B}" {
+     }
+    }
+   }
+  }
+  SCR_SoundDataComponent "{6444387C90EB4316}" {
+   m_aAudioSourceConfiguration {
+    SCR_AudioSourceConfiguration "{6444387C90EB4315}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_PICK_UP"
+    }
+    SCR_AudioSourceConfiguration "{6444387C90EB42EF}" {
+     m_sSoundProject "{0026043E3CD828D0}Sounds/Items/_SharedData/PickUp/Items_PickUp_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_EQUIP"
+     m_eFlags 0
+    }
+    SCR_AudioSourceConfiguration "{6444387C90EB42ED}" {
+     m_sSoundProject "{7F55C292FBA55048}Sounds/Items/_SharedData/Drop/Items_Drop_Generic_Metallic.acp"
+     m_sSoundEventName "SOUND_DROP"
+    }
+   }
+  }
+  ActionsManagerComponent "{6444387C90EB42E9}" {
+   ActionContexts {
+    UserActionContext "{6444387C90EB42E7}" {
+     ContextName "default"
+     Position PointInfo "{6444387C90EB42E5}" {
+      Offset 0 0.1 0
+     }
+     Radius 0.115
+    }
+   }
+   additionalActions {
+    SCR_PickUpItemAction "{6444387C90EB42FF}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6444387C90EB42FC}" {
+      Name "#AR-Inventory_PickUp"
+     }
+    }
+    SCR_EquipGadgetAction "{6444387C90EB42FA}" {
+     ParentContextList {
+      "default"
+     }
+     UIInfo UIInfo "{6444387C90EB42CB}" {
+      Name "#AR-Inventory_Equip"
+     }
+    }
+   }
+  }
+  RplComponent "{6444387C90EB42C9}" {
+   "Rpl State Override" Runtime
+   "Parent Node From Parent Entity" 0
+  }
+  Hierarchy "{6444387C90EB42C4}" {
+  }
+ }
+ coords 128.044 1 125.983
+}

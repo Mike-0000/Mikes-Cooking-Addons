@@ -28,12 +28,6 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
   }
   MIKE_RecipeManagerComponent "{632C699AA3011F6D}" {
    RecipeConfig MIKE_CfgRecipe "{632C8326FB9A06AB}" : "{71ED3EDF60362787}Configs/MIKE_RecipeConfigs.conf" {
-    weightedRecipes {
-     WeightedRecipe "{632C7366F17B64A1}" {
-      optimalHeatMin 100
-      optimalHeatMax 250
-     }
-    }
    }
   }
   MeshObject "{5872F0EB7FA40561}" {
@@ -224,27 +218,28 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
    Enabled 1
    Attributes SCR_ItemAttributeCollection "{632C10D4CDE75B91}" {
     ItemDisplayName UIInfo "{632C10D4DBF2E3C1}" {
-     Name "Meth Lab"
+     Name "Cooking Stove"
     }
     ItemPhysAttributes ItemPhysicalAttributes "{632C10D4E32720FC}" {
-     Weight 0.01
+     Weight 5
      SizeSetupStrategy Manual
      ItemDimensions 20 20 20
-     ItemVolume 0.1
+     ItemVolume 5
     }
     CustomAttributes {
      PreviewRenderAttributes "{632C10D40194B4E9}" {
       CameraDistanceToItem 2
+      FOV 55
      }
     }
-    m_Size SLOT_2x1
-    m_eQuickSlotSize SLOT_1x1
+    m_Size SLOT_3x3
+    m_eQuickSlotSize SLOT_3x3
     m_bStackable 0
    }
    UseCapacityCoefficient 0
-   MaxCumulativeVolume 100000
+   MaxCumulativeVolume 1000000
    SaveInLoadout 0
-   m_fMaxWeight 10000
+   m_fMaxWeight 100000
   }
   ActionsManagerComponent "{63241A10E78965CA}" {
    Enabled 1
@@ -338,7 +333,7 @@ GenericEntity : "{9E6BB1D7AA5D0FEB}Prefabs/Props/Furniture/Stove_01.et" {
    components {
     SCR_DestructionMultiPhaseComponent "{51A4A8CA10A96EE4}" {
      Enabled 1
-     m_fBaseHealth 4000
+     m_fBaseHealth 10000
     }
     RplComponent "{644400AEA4749BC3}" {
     }

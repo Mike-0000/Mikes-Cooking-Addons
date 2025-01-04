@@ -4,12 +4,23 @@ GenericEntity : "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/Field
   InventoryItemComponent "{5222EB4D0C73006B}" {
    Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
     ItemDisplayName SCR_InventoryUIInfo "{5222EB4D07D865FA}" {
-     Name "Spawn Stove"
-     Description "Spawn Stove"
+     Name "Mike's Cooking Stove"
+     Description "Press your Bandage key to spawn a Stove"
      m_aItemHints {
       SCR_InventoryItemHintUIInfo "{5E0EC111B36279BB}" {
        Name "Spawn Stove"
+       Description "Press your Bandage key to spawn a Stove"
       }
+     }
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{6098B9508619B4D0}" {
+      CameraPreset Front
+      CameraDistanceToItem 0.8
+      CameraOffset 0 0 0
+      ItemRenderRotation 0 0 0
+      FOV 8
+      PreviewPrefab ""
      }
     }
    }
@@ -24,6 +35,9 @@ GenericEntity : "{30CDE9F71FC702E8}Prefabs/Items/Medicine/FieldDressing_01/Field
     m_rnStovePrefab "{9B5C23A08E40BEF6}PrefabsEditable/MikesStove.et"
    }
    m_bAlternativeModelOnAction 0
+  }
+  RplComponent "{508AB59531D748C9}" {
+   "Rpl State Override" None
   }
  }
 }
